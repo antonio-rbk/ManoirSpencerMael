@@ -280,7 +280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2339368961394651900}
   m_Layer: 0
-  m_Name: BigPillarStairs
+  m_Name: Stairs_BigPillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
