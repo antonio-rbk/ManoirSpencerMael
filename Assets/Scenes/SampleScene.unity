@@ -11517,6 +11517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1607471466}
   - component: {fileID: 1607471465}
+  - component: {fileID: 1607471467}
   m_Layer: 0
   m_Name: UI_porteouverte
   m_TagString: Untagged
@@ -11537,7 +11538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextAction
   message: La porte de la cave est ouverte
-  displayDuration: 4
+  displayDuration: 50
 --- !u!4 &1607471466
 Transform:
   m_ObjectHideFlags: 0
@@ -11553,6 +11554,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1607471467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607471464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1234b6e68dfdda048b40a23e7e4b1a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnToggleEvent
+  onTurnOn:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1607471465}
+        m_TargetAssemblyTypeName: TextAction, Assembly-CSharp
+        m_MethodName: TriggerText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTurnOff:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1629972502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13981,9 +14012,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1607471465}
-        m_TargetAssemblyTypeName: TextAction, Assembly-CSharp
-        m_MethodName: TriggerText
+      - m_Target: {fileID: 1607471467}
+        m_TargetAssemblyTypeName: OnToggleEvent, Assembly-CSharp
+        m_MethodName: Toggle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13991,7 +14022,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   onFailedOrReset:
     m_PersistentCalls:
@@ -14962,11 +14993,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6cd6e2272208084ea4f2ef53f8d70f7, type: 3}
---- !u!1 &1403827521154739814 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7176208030254062219, guid: e6cd6e2272208084ea4f2ef53f8d70f7, type: 3}
-  m_PrefabInstance: {fileID: 1403827521154739813}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1828058829438444854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16310,7 +16336,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -16330,7 +16356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -16351,7 +16377,7 @@ PrefabInstance:
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
-      objectReference: {fileID: 1403827521154739814}
+      objectReference: {fileID: 0}
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -16386,7 +16412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
-      value: SetActive
+      value: Trigger
       objectReference: {fileID: 0}
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -16406,7 +16432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: OnOnceEvent, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2313861239957286259, guid: d4ebbe0297882ea45adf70a4fd5b3b40, type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_BoolArgument
