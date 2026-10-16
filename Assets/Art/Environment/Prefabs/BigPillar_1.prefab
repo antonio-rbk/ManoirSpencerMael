@@ -81,6 +81,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0f1d7d106c18106479e8e68be24fae21, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
     - target: {fileID: 919132149155446097, guid: 0f1d7d106c18106479e8e68be24fae21, type: 3}
       propertyPath: m_Name
       value: SM_Pillar_Rectangular_13
@@ -143,6 +147,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5c694f20b45bf49478384f9d6a1c4cfe, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
     - target: {fileID: 919132149155446097, guid: 5c694f20b45bf49478384f9d6a1c4cfe, type: 3}
       propertyPath: m_Name
       value: SM_Pillar_Rectangular_TopExtent
