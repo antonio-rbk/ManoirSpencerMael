@@ -45,7 +45,7 @@ PrefabInstance:
     - target: {fileID: 63515866596197249, guid: d8aee9a4811d67048a7cb6a62a5a526c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     - target: {fileID: 6230756239785654367, guid: d8aee9a4811d67048a7cb6a62a5a526c, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -97,7 +97,7 @@ PrefabInstance:
     - target: {fileID: 7727074371465021117, guid: d8aee9a4811d67048a7cb6a62a5a526c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -119,7 +119,7 @@ PrefabInstance:
     - target: {fileID: 63515866596197249, guid: d8aee9a4811d67048a7cb6a62a5a526c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     - target: {fileID: 6230756239785654367, guid: d8aee9a4811d67048a7cb6a62a5a526c, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -171,7 +171,7 @@ PrefabInstance:
     - target: {fileID: 7727074371465021117, guid: d8aee9a4811d67048a7cb6a62a5a526c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -237,15 +237,15 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 32f4ea10da850ae4c980de3bf0e99fdf, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     - target: {fileID: -6487211463137146845, guid: 32f4ea10da850ae4c980de3bf0e99fdf, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     - target: {fileID: -1183169081366178385, guid: 32f4ea10da850ae4c980de3bf0e99fdf, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     - target: {fileID: 919132149155446097, guid: 32f4ea10da850ae4c980de3bf0e99fdf, type: 3}
       propertyPath: m_Name
       value: SM_Roof_AlcovBay

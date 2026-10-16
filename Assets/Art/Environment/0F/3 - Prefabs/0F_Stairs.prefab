@@ -89,6 +89,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 0F_StairsHalf
       objectReference: {fileID: 0}
+    - target: {fileID: 3634397423998531705, guid: 39d5e1b42b965894082ee4ece882b0d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f0b1925eb5ccf2a4d91fe7493c24d9fa, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

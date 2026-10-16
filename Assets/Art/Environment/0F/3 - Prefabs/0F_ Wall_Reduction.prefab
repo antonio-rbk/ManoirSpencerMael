@@ -55,7 +55,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: c7cb5c1e748ca1c4fb32e64ce7845058, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: e5c3e8735edfcda4aa1d4472e373a5af, type: 2}
+    - target: {fileID: -7511558181221131132, guid: c7cb5c1e748ca1c4fb32e64ce7845058, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     - target: {fileID: 919132149155446097, guid: c7cb5c1e748ca1c4fb32e64ce7845058, type: 3}
       propertyPath: m_Name
       value: 0F_ Wall_Reduction
