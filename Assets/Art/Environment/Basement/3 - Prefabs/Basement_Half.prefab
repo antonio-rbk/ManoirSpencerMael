@@ -53,7 +53,7 @@ PrefabInstance:
     - target: {fileID: 5912472154067793377, guid: 52e27155c9be1394dae7d328e9a0eb27, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: dc3b42e3d17d2f34a8252cf7a5887ceb, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c3a95cfe543ef74da62a23c163f49c1, type: 2}
     - target: {fileID: 5991534263077631077, guid: 52e27155c9be1394dae7d328e9a0eb27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.25
@@ -119,7 +119,7 @@ PrefabInstance:
     - target: {fileID: 5912472154067793377, guid: 52e27155c9be1394dae7d328e9a0eb27, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: dc3b42e3d17d2f34a8252cf7a5887ceb, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c3a95cfe543ef74da62a23c163f49c1, type: 2}
     - target: {fileID: 5991534263077631077, guid: 52e27155c9be1394dae7d328e9a0eb27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -357,7 +357,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 80acb845cd3e33e409e8f410d7aacbd4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c3a95cfe543ef74da62a23c163f49c1, type: 2}
     - target: {fileID: 919132149155446097, guid: 80acb845cd3e33e409e8f410d7aacbd4, type: 3}
       propertyPath: m_Name
       value: SM_Basement_Pillar_5
@@ -383,7 +383,7 @@ PrefabInstance:
     - target: {fileID: 5912472154067793377, guid: 52e27155c9be1394dae7d328e9a0eb27, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: dc3b42e3d17d2f34a8252cf7a5887ceb, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c3a95cfe543ef74da62a23c163f49c1, type: 2}
     - target: {fileID: 5991534263077631077, guid: 52e27155c9be1394dae7d328e9a0eb27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.75
@@ -493,7 +493,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 38ebab15cda6d22459533d8d9607148b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 2dd442dd121f23d4689006a20afd3a3a, type: 2}
+      objectReference: {fileID: 2100000, guid: e5c3e8735edfcda4aa1d4472e373a5af, type: 2}
     - target: {fileID: 919132149155446097, guid: 38ebab15cda6d22459533d8d9607148b, type: 3}
       propertyPath: m_Name
       value: SM_Basement_DownStairs_Corner_1
@@ -625,7 +625,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 64b0b353ef59d9f4e84df3d2b879c6b2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: dc3b42e3d17d2f34a8252cf7a5887ceb, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c3a95cfe543ef74da62a23c163f49c1, type: 2}
     - target: {fileID: 919132149155446097, guid: 64b0b353ef59d9f4e84df3d2b879c6b2, type: 3}
       propertyPath: m_Name
       value: SM_Basement_Walls
@@ -651,7 +651,7 @@ PrefabInstance:
     - target: {fileID: 5912472154067793377, guid: 52e27155c9be1394dae7d328e9a0eb27, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: dc3b42e3d17d2f34a8252cf7a5887ceb, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c3a95cfe543ef74da62a23c163f49c1, type: 2}
     - target: {fileID: 5991534263077631077, guid: 52e27155c9be1394dae7d328e9a0eb27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.125
@@ -757,7 +757,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 80acb845cd3e33e409e8f410d7aacbd4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 7c3a95cfe543ef74da62a23c163f49c1, type: 2}
     - target: {fileID: 919132149155446097, guid: 80acb845cd3e33e409e8f410d7aacbd4, type: 3}
       propertyPath: m_Name
       value: SM_Basement_Pillar_3

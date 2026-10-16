@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -35,7 +36,9 @@ public class EnemyAI : MonoBehaviour
     public string attackTriggerName = "Attack";
     public string hitTriggerName = "Hit";
     public string dieTriggerName = "Die";
-
+    
+    [SerializeField] private UnityEvent onDeathEvent;
+    
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -222,11 +225,12 @@ public class EnemyAI : MonoBehaviour
             }
         }
     }
-
+    
     void Die()
     {
+        
         currentState = AIState.Dead;
-
+        
         // Déclenche l'animation de mort
         if (animator != null)
         {
@@ -246,7 +250,7 @@ public class EnemyAI : MonoBehaviour
         {
             col.enabled = false;
         }
-
+        onDeathEvent.Invoke();
         Debug.Log("L'ennemi est mort.");
     }
 }

@@ -59,7 +59,7 @@ PrefabInstance:
     - target: {fileID: -1718074860423136613, guid: 36468675bdab9f84b8ee29c495b9c60c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     - target: {fileID: 919132149155446097, guid: 36468675bdab9f84b8ee29c495b9c60c, type: 3}
       propertyPath: m_Name
       value: 1F_SmallPillar
@@ -67,7 +67,7 @@ PrefabInstance:
     - target: {fileID: 5558970440276703263, guid: 36468675bdab9f84b8ee29c495b9c60c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     - target: {fileID: 5922629291836971603, guid: 36468675bdab9f84b8ee29c495b9c60c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -79,7 +79,7 @@ PrefabInstance:
     - target: {fileID: 6714867966368160122, guid: 36468675bdab9f84b8ee29c495b9c60c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6ded606e8b5aef4c8a3c4a0031a7619, type: 2}
+      objectReference: {fileID: 2100000, guid: 1b5852a2b16a10646abc76c1a5ef97d9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2387706743282148364, guid: 36468675bdab9f84b8ee29c495b9c60c, type: 3}
